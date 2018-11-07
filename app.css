@@ -1,0 +1,41 @@
+html, body, iframe {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+iframe{
+  width: 60%;
+  height: 600px;
+}
+input{
+  padding:10px;
+}
+button{
+  width:100%;
+  padding:10px;
+}
+a{
+  background-color:green;
+  color:white;
+  text-decoration:none;
+  padding:10px;
+  margin:15px;
+  width:50%;
+}
+#inside{
+  margin:30px;
+}
+#midpan{
+  width:50%;
+}
+#ket p{
+  margin:0;
+}
+#img1{
+  width:100px;
+  height: 100px;
+}
+#aaa{
+  width:50%;
+}
