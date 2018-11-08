@@ -5,9 +5,9 @@ $(function(){
     ///$("#abc").text(suratCode);
     $("#inside").empty();
     if(suratCode != "03"){
-      $("#inside").append('<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/simajesu-sma8/simajesu-sma8.github.io/master/docs/'+ suratCode +'.doc&embedded=true" frameborder="0"></iframe>')
+      $("#inside").append('<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/simajesu-sma8/simajesu-sma8.github.io/master/docs/'+ suratCode +'.doc" frameborder="0"></iframe>')
     }else{
-      $("#inside").append('<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/simajesu-sma8/simajesu-sma8.github.io/master/docs/'+ suratCode +'.xls&embedded=true" frameborder="0"></iframe>')
+      $("#inside").append('<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/simajesu-sma8/simajesu-sma8.github.io/master/docs/'+ suratCode +'.xls" frameborder="0"></iframe>')
     }
     $("#buttons").empty();
     
