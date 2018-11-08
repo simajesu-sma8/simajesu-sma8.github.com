@@ -5,16 +5,16 @@ $(function(){
     ///$("#abc").text(suratCode);
     $("#inside").empty();
     if(suratCode != "03"){
-      $("#inside").append('<iframe src="https://docs.google.com/gview?url=http://goodank.com/aplikasimanajemensurat/'+ suratCode +'.doc&embedded=true" frameborder="0"></iframe>')
+      $("#inside").append('<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/simajesu-sma8/simajesu-sma8.github.io/master/docs/'+ suratCode +'.doc&embedded=true" frameborder="0"></iframe>')
     }else{
-      $("#inside").append('<iframe src="https://docs.google.com/gview?url=http://goodank.com/aplikasimanajemensurat/'+ suratCode +'.xls&embedded=true" frameborder="0"></iframe>')
+      $("#inside").append('<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/simajesu-sma8/simajesu-sma8.github.io/master/docs/'+ suratCode +'.xls&embedded=true" frameborder="0"></iframe>')
     }
     $("#buttons").empty();
     
     if(suratCode != "03"){
-      $("#buttons").append('<a class="btn btn-primary" href="http://goodank.com/aplikasimanajemensurat/'+ suratCode +'.doc">DOWNLOAD</a>')
+      $("#buttons").append('<a class="btn btn-primary" href="https://raw.githubusercontent.com/simajesu-sma8/simajesu-sma8.github.io/master/docs/'+ suratCode +'.doc">DOWNLOAD</a>')
     }else{
-      $("#buttons").append('<a class="btn btn-primary" href="http://goodank.com/aplikasimanajemensurat/'+ suratCode +'.xls">DOWNLOAD</a>')
+      $("#buttons").append('<a class="btn btn-primary" href="https://raw.githubusercontent.com/simajesu-sma8/simajesu-sma8.github.io/master/docs/'+ suratCode +'.xls">DOWNLOAD</a>')
     }
     }else{
     $("#inside").empty();
